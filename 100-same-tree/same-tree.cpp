@@ -19,4 +19,5 @@ public:
         return (p->val==q->val) && isSameTree(p->left,q->left)&& isSameTree(p->right,q->right);
         
     }
-};
+}; // Time : O(N)
+   // Space: O(N)
