@@ -6,9 +6,7 @@ public:
         for(auto it:mp1)
         {
             if(it.second==1)
-            {
-                return it.first;
-            }
+            return it.first;
         }
         return -1;
         
