@@ -5,8 +5,15 @@ public:
         //map<long int,int>mp1;
         for(auto it:nums) 
         {
-            pos=pos+(it>0);
-            neg=neg+(it<0);
+            if(it>0)
+            {
+                pos++;
+            }
+            if(it<0)
+            {
+                neg++;
+            }
+            
         }
         
         return max(pos,neg);
